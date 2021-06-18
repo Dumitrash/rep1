@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN  pip install --trusted-host pypi.python.org -r requerements.txt
+RUN  pip install --trusted-host pypi.python.org -r requermmentsts.txt
 
 EXPOSE 8080
 
